@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#time_image {
+  height: 179.922px;
+  border-radius: 0.2rem;
+}
+
+.container {
+  margin: 6rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 5px 8px;
+  font-size: 16px;
+  border-radius: 0.2rem;
+  font-family: "Poppins";
+}
+
+#search_city {
+  margin: 10px 0;
+}
+
+.list_card {
+  width: 100%;
+  text-align: left;
+  display: none;
+}
+
+.city_name,
+.weather_text,
+.degree {
+  margin-bottom: 5px;
+}
+
+.city_name {
+  font-weight: 500;
+}
+
+.weather_text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #796e6e;
+}
+
+.degree {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
